@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Map_Navigation</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+	
+    <string name="text_error">打开文本失败！</string>
+    <string name="open">打开</string>
+    <string name="cancel">取消</string>
+    <string name="confirm_title">不要打开嘛！</string>
+    <string name="confirm_message">确定要打开这个文件么？</string>
+    <string name="utte_completed">“%1$s”发声完成啦^_^</string>
+    <string name="utte_stopped">“%1$s”发声停止了T^T</string>
+    <string name="synt_success">合成音效成功^^</string>
+    <string name="synt_fail">合成音效失败T^T</string>
+    <string name="msc_key">合成音效失败T^T</string>
+</resources>

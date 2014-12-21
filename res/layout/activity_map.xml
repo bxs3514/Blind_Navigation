@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:id="@+id/driving"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.31"
+            android:text="自驾路线" />
+
+        <Button
+            android:id="@+id/walking"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.31"
+            android:text="步行路线" />
+
+        <Button
+            android:id="@+id/bus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.23"
+            android:text="公交路线" />
+
+        <Button
+            android:id="@+id/navigation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.31"
+            android:text="从现在的位置导航" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="51dp" >
+
+        <EditText
+            android:id="@+id/start"
+            android:layout_width="125dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.40"
+            android:ems="10" />
+
+        <TextView
+            android:id="@+id/location"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.40"
+            android:text="---->" />
+
+        <EditText
+            android:id="@+id/end"
+            android:layout_width="126dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.50"
+            android:ems="10" />
+
+    </LinearLayout>
+
+        <com.baidu.mapapi.map.MapView android:id="@+id/bmapsView"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:clickable="true" />
+</LinearLayout>
